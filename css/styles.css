@@ -1,0 +1,640 @@
+header {
+    background-color: rgb(248, 248, 248);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+}
+
+.bien {
+    animation-duration: 0.6s;
+    animation-name: bien;
+}
+
+@keyframes bien {
+    0% {
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.sitio {
+    animation-duration: 0.8s;
+    animation-name: sitio;
+}
+
+@keyframes sitio {
+    0% {
+        transform: translateX(2000px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.linkhead {
+    transition-duration: 1s;
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+}
+
+.linkhead:hover {
+    transform: scale(1.2);
+    color: #55d875;
+}
+
+.Logo {
+    width: 90%;
+    padding-bottom: 2px;
+    transition-duration: 1s;
+}
+
+.Logo:hover {
+    transform: scale(1.2);
+}
+
+.infopreg {
+    padding-left: 90px;
+    padding-right: 90px;
+    animation: infopreg 1s;
+    padding-bottom: 5px;
+}
+
+@keyframes infopreg {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.infopreg2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    animation: infopreg2 2s;
+}
+
+@keyframes infopreg2 {
+    0% {
+        opacity: 0%;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
+.flecha {
+    padding-top: 70px;
+    width: 20%;
+    animation: flecha 1.6s infinite;
+}
+
+@keyframes flecha {
+    0% {
+        transform: translatex(15px);
+    }
+
+    50% {
+        transform: translateX(-15px);
+    }
+
+    100% {
+        transform: translatex(15px);
+    }
+}
+
+#banner {
+    background-image: linear-gradient(45deg, #b7f582 0, #9eef80 16.67%, #7fe57c 33.33%, #55d875 50%, #00cb70 66.67%, #00c070 83.33%, #00b975 100%);
+    padding-top: 150px;
+    padding-bottom: 130px;
+    animation: gradient 10s ease-in infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#banner2 {
+    background-image: url(https://d2v1fnnqbwu22q.cloudfront.net/_imager/files/Shows/BIC/32011/BIC_PetShopBoys_1000x1000_58e3f25adda909ed9b27f56e99326c26.png);
+    color: aliceblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0 0 6px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+}
+
+.linkcompra {
+    transition-duration: 1s;
+    color: #55d875;
+    text-decoration: none;
+}
+
+.linkcompra:hover {
+    transform: scale(1.2);
+    color: #b7f582;
+}
+
+#content {
+    background-color: rgb(248, 248, 248);
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center;
+}
+
+#contacto {
+    background-color: #f7f0de;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid 1px #ffdc00;
+}
+
+.arti1 {
+    animation: arti1 3s;
+}
+
+@keyframes arti1 {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.arti2 {
+    animation: arti2 3s;
+}
+
+@keyframes arti2 {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+#content2 {
+    background-color: rgb(248, 248, 248);
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+#contentint {
+    background-color: rgb(248, 248, 248);
+    padding-top: 90px;
+}
+
+#contentint2 {
+    background-color: rgb(248, 248, 248);
+    padding-top: 110px;
+}
+
+#contentint3 {
+    background-color: rgb(248, 248, 248);
+    padding-top: 70px;
+}
+
+.neiltitle {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.christitle {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.neil {
+    width: 65%;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.chris {
+    width: 65%;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.infotitle {
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.infotitle2 {
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.info {
+    margin: auto;
+    text-align: justify;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.info2 {
+    margin: auto;
+    text-align: justify;
+    animation: info2 2s;
+}
+
+@keyframes info2 {
+    0% {
+        opacity: 0%;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateX(0px);
+    }
+}
+
+.info3 {
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 60px;
+    animation: info3 2s;
+}
+
+@keyframes info3 {
+    0% {
+        opacity: 0%;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateX(0px);
+    }
+}
+
+.info4 {
+    text-align: center;
+    margin: auto;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.tituinfo {
+    text-align: center;
+    font-size: larger;
+    background-color: #ffdd0098;
+} 
+
+.ficha {
+    background-color: #f7f0de;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    border: solid 1px #ffdc00;
+    animation: ficha 2s;
+}
+
+/*****.sli {
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 50%;
+    padding-bottom: 90px;
+    border-radius: 20px;
+}*****/
+
+@keyframes ficha {
+    0% {
+        opacity: 0%;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
+#content_disco {
+    background-color: rgb(248, 248, 248);
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.años {
+    padding-bottom: 30px;
+    letter-spacing: 10px;
+}
+
+.años2 {
+    padding-bottom: 30px;
+    letter-spacing: 0;
+    font-size:larger;
+    color: rgba(33, 33, 33, 0.73);
+    animation: años2 1s;
+}
+
+@keyframes años2 {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.album {
+    display: flex;
+    transition-duration: 1s;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.album:hover {
+    transform: scale(1.2);
+    text-align: center;
+}
+
+.seis {
+    display: flex;
+    transition-duration: 1s;
+    padding-top: 90px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.seis:hover {
+    transform: scale(1.2);
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(33, 33, 33);
+    color: aliceblue;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.Fandom {
+    width: 70%;
+    padding-bottom: 10px;
+    padding-top: 35px;
+}
+
+#footfoot {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkfoot {
+    transition-duration: 1s;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.linkfoot:hover {
+    transform: scale(1.2);
+    color: #55d875;
+}
+
+.redes {
+    letter-spacing: 10px;
+    background-color: rgba(19, 19, 19, 0.827);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.item {
+    transition-duration: 1s;
+    color: whitesmoke;
+}
+
+.item:hover {
+    transform: scale(1.2);
+    color: #55d875;
+}
+
+.UP {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 35px;
+}
+
+#final {
+    background-color: rgb(19, 19, 19);
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.nombre {
+    padding-top: 5px;
+}
+
+@media only screen and (max-device-width: 800px) and (min-device-width: 500px){
+
+    #content {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .infopreg {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .infopreg2 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .flecha {
+        display:none;
+
+    }
+
+    #textcont {
+        padding-bottom: 30px;
+        padding-top: 10px;
+        margin: auto;
+    }
+
+    .arti1 {
+        padding-bottom: 80px;
+    }
+
+    #content_disco {
+        padding-top: 100px;
+        padding-bottom: 35px;
+    }
+
+    #nowrap_discos {
+        flex-wrap: nowrap;
+    }
+
+    .album {
+        width: 77%;
+        height: auto;
+        text-align: center;
+        padding-bottom: 20px;
+        display: block;
+        margin: auto;
+        padding-right: 35px;
+        
+    }
+    
+    .seis {
+        width: 77%;
+        height: auto;
+        text-align: center;
+        padding-top: 2px;
+        display: block;
+        margin: auto;
+        padding-right: 35px;    
+    }
+
+    .Fandom {
+        padding-bottom: 30px;
+        padding-top: 10px;
+        width: 45%;
+    }
+
+    #footfoot {
+        flex-direction: column;
+    }
+
+    .UP {
+        padding-bottom: 30px;
+        padding-top: 10px;
+        width: 45%;
+    }
+
+}
+
+@media only screen and (max-device-width: 499px) and (min-device-width: 300px){
+
+    #content {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .infopreg {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .infopreg2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .flecha {
+        display:none;
+    }
+
+    #textcont {
+        padding-bottom: 30px;
+        padding-top: 10px;
+        margin: auto;
+    }
+
+    .arti1 {
+        padding-bottom: 80px;
+    }
+
+    #content_disco {
+        padding-top: 100px;
+        padding-bottom: 35px;
+    }
+
+    #nowrap_discos {
+        flex-wrap: nowrap;
+    }
+
+    .album {
+        width: 92%;
+        height: auto;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-right: 5px;
+        
+    }
+    
+    .seis {
+        width: 92%;
+        height: auto;
+        text-align: center;
+        padding-top: 2px; 
+        padding-right: 5px;    
+    }
+
+    .Fandom {
+        padding-bottom: 30px;
+        padding-top: 10px;
+        width: 55%;
+    }
+
+    #footfoot {
+        flex-direction: column;
+    }
+
+    .redes {
+
+        letter-spacing: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 55px;
+    }
+
+    .UP {
+        padding-bottom: 30px;
+        padding-top: 10px;
+        width: 55%;
+    }
+    
+}
