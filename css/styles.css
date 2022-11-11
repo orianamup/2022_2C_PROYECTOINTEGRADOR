@@ -1,8 +1,13 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
 header {
     background-color: rgb(248, 248, 248);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     position: fixed;
+    z-index: 999999999;
 }
 
 .bien {
@@ -36,19 +41,20 @@ header {
 }
 
 .linkhead {
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     color: rgb(33, 33, 33);
     text-decoration: none;
 }
 
 .linkhead:hover {
-    transform: scale(1.2);
     color: #55d875;
 }
 
 .Logo {
     width: 90%;
-    padding-bottom: 2px;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 2.5px;
     transition-duration: 1s;
 }
 
@@ -112,11 +118,12 @@ header {
 }
 
 #banner {
-    background-image: linear-gradient(45deg, #b7f582 0, #9eef80 16.67%, #7fe57c 33.33%, #55d875 50%, #00cb70 66.67%, #00c070 83.33%, #00b975 100%);
+    background-image: linear-gradient(230deg, #ff86bd 0, #ff86ac 5%, #ff889c 10%, #ff8b8d 15%, #ff907e 20%, #ff956f 25%, #ff9c62 30%, #ffa256 35%, #ffa84c 40%, #ffaf43 45%, #f2b53c 50%, #e4bb38 55%, #d5c038 60%, #c6c53b 65%, #b5ca41 70%, #a3ce4a 75%, #91d155 80%, #7cd462 85%, #64d770 90%, #44d97f 95%, #00db8f 100%);
     padding-top: 150px;
     padding-bottom: 130px;
-    animation: gradient 10s ease-in infinite;
+    animation: gradient 13s ease-in infinite;
     background-size: 400% 400%;
+    font-weight: 100;
 }
 
 @keyframes gradient {
@@ -144,6 +151,14 @@ header {
     box-shadow: inset 0 0 6px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
 }
 
+#banner3 {
+    background-color: rgb(19, 19, 19);
+    color: aliceblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
 .linkcompra {
     transition-duration: 1s;
     color: #55d875;
@@ -162,14 +177,21 @@ header {
     text-align: center;
 }
 
+#content5 {
+    background-color: rgb(248, 248, 248);
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center;
+}
+
 #contacto {
-    background-color: #f7f0de;
+    background-image: linear-gradient(0, #ffffbd 0, #ffffb5 12.5%, #f6fbac 25%, #e6f7a5 37.5%, #d5f29d 50%, #c3ed97 62.5%, #b0e993 75%, #9ce590 87.5%, #87e190 100%);
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    border: solid 1px #ffdc00;
+    background-attachment: fixed;
 }
 
 .arti1 {
@@ -313,24 +335,31 @@ header {
     margin: auto;
     padding-top: 2px;
     padding-bottom: 5px;
+    transition-duration: 1.2s;
+}
+
+.info4:hover {
+    background-color: rgba(71, 71, 71, 0.115);
+    border-radius: 60px;
 }
 
 .tituinfo {
     text-align: center;
     font-size: larger;
-    background-color: #ffdd0098;
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
 } 
 
 .ficha {
-    background-color: #f7f0de;
+    background-image: linear-gradient(0, #ffffbd 0, #ffffb5 12.5%, #f6fbac 25%, #e6f7a5 37.5%, #d5f29d 50%, #c3ed97 62.5%, #b0e993 75%, #9ce590 87.5%, #87e190 100%);
     border-radius: 20px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin: auto;
-    border: solid 1px #ffdc00;
     animation: ficha 2s;
+    background-attachment: fixed;
 }
 
 /*****.sli {
@@ -476,7 +505,21 @@ footer {
     padding-top: 5px;
 }
 
-@media only screen and (max-device-width: 800px) and (min-device-width: 500px){
+@media only screen and (max-device-width: 990px) and (min-device-width: 500px){
+
+    .Logo {
+        max-width: 250px;
+        max-height: 250px;
+        
+    }
+    
+    .navbar-toggler-icon {
+        text-align: center;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
 
     #content {
         padding-top: 100px;
@@ -557,6 +600,21 @@ footer {
 }
 
 @media only screen and (max-device-width: 499px) and (min-device-width: 300px){
+
+    .Logo {
+        max-width: 250px;
+        max-height: 250px;
+        
+    }
+    
+    .navbar-toggler-icon {
+        text-align: center;
+        position: center;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
 
     #content {
         padding-top: 100px;
